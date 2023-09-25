@@ -7,9 +7,9 @@ Fonts are separated by a & */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #fffffa   ;
-  --secondary-color: #78cdd7 ;
+  --secondary-color: #054b63 ;
   --accent1-color: #44a1a0;
-  --accent2-color: #054b63;
+  --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Rock Salt";
