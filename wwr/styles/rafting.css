@@ -118,7 +118,7 @@ p {
 }
 
 .menu a:hover {
-    color: --nav-hover-link-color;
+    color: var(--nav-hover-link-color);
     font-weight: 700;
     text-decoration: underline;
 }
