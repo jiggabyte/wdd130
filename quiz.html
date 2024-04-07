@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 130 | HTML Form - Quiz</title>
+
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | Sixtus Onumajuru | Form - Quiz</h1>
+    </header>
+    <main>
+        <form>
+            
+            <fieldset>
+                
+                <div class="form-item column1">
+                    <label for="q1"><span class="numbers">1.</span> Fill in the blank: HTML stands for HyperText Markup _____.</label>
+                    <input type="text" id="q1" name="q1" required>
+                </div>
+                <div class="form-item column1">
+                    <label for="q2"><span class="numbers">2.</span> Explain briefly what CSS is used for:</label>
+                    <textarea id="q2" name="q2" rows="4" cols="50" required></textarea>
+                </div>
+                <div class="form-item column1">
+                    <label for="q3"><span class="numbers">3.</span> Which of the following is NOT a valid HTML tag?</label>
+                    <select id="q3" name="q3" required>
+                        <option value="" selected disabled>Choose One ...</option>
+                        <option value="div">&lt;div&gt;</option>
+                        <option value="span">&lt;span&gt;</option>
+                        <option value="anchor">&lt;anchor&gt;</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="q4"><span class="numbers">4.</span> How many levels of heading tags are there in HTML?</label>
+                    <input type="number" id="q4" name="q4" min="1" max="6" required>
+                </div>
+            </fieldset>
+
+            <button type="submit">Submit Quiz</button>
+
+        </form>
+    </main>
+    <footer>
+        <p>©2024 | HTML Form - User Quiz | Sixtus Onumajuru</p>
+    </footer>
+</body>
+
+</html>
