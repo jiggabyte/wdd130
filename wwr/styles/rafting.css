@@ -139,6 +139,10 @@ section img {
     width: 400px!important;
 }
 
+.adventure h2 {
+    text-align: center;
+}
+
 .adventure-figs {
     display: flex
 }
@@ -149,4 +153,8 @@ section img {
 
 footer p {
     text-align: center;
+}
+
+.maps {
+    border:0;
 }
