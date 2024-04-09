@@ -149,12 +149,106 @@ section img {
 
 .adventure-imgs {
    width: 200px!important;
+   margin: 0 auto;
 }
 
 footer p {
     text-align: center;
 }
 
-.maps {
-    border:0;
+#contactInfo {
+    position: relative;
+    top: 30px;
+    padding-left: 20px;
+    font-size: 2rem;
+    background-color: transparent;
+    display: block;
+    text-align: left;
 }
+
+.contact-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info {
+    padding: 40px;
+    padding-left: 5px;
+
+}
+
+.contact-info p {
+    margin: 5px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.maps {
+    margin: 0 auto;
+    border:0;
+    display: block;
+}
+
+form {
+    width: 650px;
+    margin: 100px auto;
+    padding: 1rem;
+    display: grid;
+  }
+
+  form h2 {
+    text-align: center;
+  }
+
+  form button {
+    width: 100%;
+    margin: 0;
+  }
+
+  label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+  }
+
+  label {
+    text-align: left;
+    padding-right: 1rem;
+    margin: 0 0 10px 0;
+  }
+
+  input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+  }
+  
+  button:hover {
+    background-color: darkgreen;
+  }
+
+  footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+  }
+
+  .form-item {
+    display: grid;
+    align-items: center;
+  }
+
+  .column1 {
+    grid-template-columns: 1fr;
+    margin: 0.5rem 0;
+  } 

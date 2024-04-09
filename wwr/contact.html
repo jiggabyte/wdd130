@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="The rafting site plan includes the site purpose, the target audience, branding information and a style guide for the course website project.">
+        content="This page is host a contact point for our customers to reach us as it lists our contact info and a form to send us enquiries.">
     <meta name="author" content="Sixtus Onumajuru">
 
     <title>Contact Us | White Water Rafting</title>
@@ -25,17 +25,28 @@
     </header>
     <main>
 
-        <h1>Company information:</h1>
+        <div class="hero">
+            <img src="images/rafting13_1024.jpg" alt="four rafting boats">
 
-        <p>Address: Lorem ipsum dolor sit amet ...</p>
-        <p>Phone numbers: Lorem ipsum dolor sit amet ...</p>
-        <p>Email: Lorem ipsum dolor sit amet ...</p>
+        </div>
 
-        <div class="maps">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29649.04005608411!2d-97.2276687424409!3d38.05325797723268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87bb08e54d5dbedf%3A0xfff3a76eeee866cf!2sWhitewater%2C%20KS%2067154%2C%20USA!5e0!3m2!1sen!2sng!4v1712523014601!5m2!1sen!2sng"
-                width="600" height="450"  allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <h1 id="contactInfo">Company information:</h1>
+
+        <div class="contact-div">
+            <div class="contact-info">
+                <p>Address: 134 rowing oar lane, Milton, KS 67154, USA.</p>
+                <p>Phone: +1-204-567-4567</p>
+                <p>Tel: +1-204-547-4670</p>
+                <p>Email: info@whitewater.com</p>
+            </div>
+
+            <div class="maps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29649.04005608411!2d-97.2276687424409!3d38.05325797723268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87bb08e54d5dbedf%3A0xfff3a76eeee866cf!2sWhitewater%2C%20KS%2067154%2C%20USA!5e0!3m2!1sen!2sng!4v1712523014601!5m2!1sen!2sng"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
 
         <section class="adventure">
@@ -43,62 +54,71 @@
 
             <div class="adventure-figs">
 
-            <figure>
-                <img class="adventure-imgs" src="images/rafting20_600.jpg" alt="two oars">
-                <figcaption>Los Dientes del Diablo</figcaption>
-            </figure>
+                <figure class="adventure-imgs">
+                    <img class="adventure-imgs" src="images/rafting20_600.jpg" alt="two oars">
+                    <figcaption>James Brown, <b>CEO</b></figcaption>
+                </figure>
 
-            <figure>
-                <img class="adventure-imgs" src="images/rafting19_600.jpg" alt="red raft with rafters">
-                <figcaption>Half Day Adventure</figcaption>
-            </figure>
+                <figure class="adventure-imgs">
+                    <img class="adventure-imgs" src="images/rafting19_600.jpg" alt="red raft with rafters">
+                    <figcaption>Clinton Okoye, <b>COO</b></figcaption>
+                </figure>
 
-            <figure>
-                <img class="adventure-imgs" src="images/rafting65_600.jpg" alt="rafters on narrow pass">
-                <figcaption>Big Mallard</figcaption>
-            </figure>
+                <figure class="adventure-imgs">
+                    <img class="adventure-imgs" src="images/rafting65_600.jpg" alt="rafters on narrow pass">
+                    <figcaption>Nsikak Okon, <b>Rescue Guard</b></figcaption>
+                </figure>
 
-        
-        </div>
-           
+
+            </div>
+
         </section>
 
         <form>
 
-            <fieldset>
-                <div class="form-item column1">
-                    <label for="q1"><span class="numbers">1.</span> Fill in the blank: HTML stands for HyperText Markup
-                        _____.</label>
-                    <input type="text" id="q1" name="q1" required>
-                </div>
-                <div class="form-item column1">
-                    <label for="q2"><span class="numbers">2.</span> Explain briefly what CSS is used for:</label>
-                    <textarea id="q2" name="q2" rows="4" cols="50" required></textarea>
-                </div>
-                <div class="form-item column1">
-                    <label for="q3"><span class="numbers">3.</span> Which of the following is NOT a valid HTML
-                        tag?</label>
-                    <select id="q3" name="q3" required>
-                        <option value="" selected disabled>Choose One ...</option>
-                        <option value="div">&lt;div&gt;</option>
-                        <option value="span">&lt;span&gt;</option>
-                        <option value="anchor">&lt;anchor&gt;</option>
-                    </select>
-                </div>
-                <div class="form-item column1">
-                    <label for="q4"><span class="numbers">4.</span> How many levels of heading tags are there in
-                        HTML?</label>
-                    <input type="number" id="q4" name="q4" min="1" max="6" required>
-                </div>
-            </fieldset>
-            <button type="submit">Submit Quiz</button>
+            <h2>Contact Us:</h2>
+
+            <div class="form-item column1">
+                <label for="q1">Name</label>
+                <input type="text" id="q1" name="q1" placeholder="User Name" required>
+            </div>
+            <div class="form-item column1">
+                <label for="q2">Email</label>
+                <input type="text" id="q2" name="q2" placeholder="User Email" required>
+            </div>
+            <div class="form-item column1">
+                <label for="q3">
+                    <input type="radio" id="q3" name="q3" required>
+                    General Inquiry
+                </label>
+                <label for="q4">
+                    <input type="radio" id="q4" name="q3" required>
+                    Reservation Question
+                </label>
+                <label for="q5">
+                    <input type="radio" id="q5" name="q3" required>
+                    Website Suggestion
+                </label>
+            </div>
+            <div class="form-item column1">
+                <label for="q6">Message</label>
+                <input type="text" id="q6" name="q6" placeholder="User Message" required>
+            </div>
+            <div class="form-item column1">
+                <label for="q7">
+                    <input type="checkbox" id="q7" name="q7" required>
+                    Please subscribe me to the monthly newsletter
+                </label>
+            </div>
+
+            <button type="submit">Send</button>
         </form>
 
 
 
     </main>
     <footer>
-        <p>&copy; 2024 White Water Rafting, Sixtus Onumajuru. </p>
+        <p>&copy; 2024 White Water Rafting, Sixtus Onumajuru. |  <a href="https://app.moqups.com/R2HMIOHqNlj2CJO2Luu2SsWT04lqAfn2/view/page/a7cdc93d5?ui=0&fit_width=1">wireframe link</a> </p>
 
         <nav class="sociallinks">
             <a href="https://facebook.com">
@@ -111,6 +131,8 @@
                 <img src="images/instagram.svg" alt="Instagram">
             </a>
         </nav>
+
+       
     </footer>
 </body>
 
