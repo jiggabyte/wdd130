@@ -32,7 +32,7 @@ h6 {
     color: var(--headline-color-on-white);
 }
 
-.sociallinks{
+.sociallinks {
     position: absolute;
     right: 20px;
     margin-bottom: 40px;
@@ -124,7 +124,7 @@ p {
 }
 
 section img {
-    margin-bottom: 40px!important;
+    margin-bottom: 40px !important;
 }
 
 .history h2 {
@@ -136,7 +136,7 @@ section img {
 }
 
 .history-img {
-    width: 400px!important;
+    width: 400px !important;
 }
 
 .adventure h2 {
@@ -150,8 +150,8 @@ section img {
 }
 
 .adventure-imgs {
-   width: 250px!important;
-   margin: 0 auto;
+    width: 250px !important;
+    margin: 0 auto;
 }
 
 footer p {
@@ -187,7 +187,7 @@ footer p {
 
 .maps {
     margin: 0 auto;
-    border:0;
+    border: 0;
     display: block;
 }
 
@@ -196,33 +196,39 @@ form {
     margin: 100px auto;
     padding: 1rem;
     display: grid;
-  }
+}
 
-  form h2 {
+form h2 {
     text-align: center;
-  }
+}
 
-  form button {
+form button {
     width: 100%;
     margin: 0;
-  }
+}
 
-  label, input, button, select, textarea {
+label,
+input,
+button,
+select,
+textarea {
     font-family: Roboto, Arial, sans-serif;
-  }
+}
 
-  label {
+label {
     text-align: left;
     padding-right: 1rem;
     margin: 0 0 10px 0;
-  }
+}
 
-  input, select, textarea {
+input,
+select,
+textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
-  }
+}
 
-  button {
+button {
     margin: 1rem;
     background-color: navy;
     color: #fff;
@@ -230,49 +236,49 @@ form {
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
-  }
-  
-  button:hover {
-    background-color: darkgreen;
-  }
+}
 
-  footer {
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
     margin: 1rem auto 0;
     width: 650px;
     text-align: center;
     font-size: 0.8em;
     color: #777;
     border-top: 1px solid #ccc;
-  }
+}
 
-  .form-item {
+.form-item {
     display: grid;
     align-items: center;
-  }
+}
 
-  .column1 {
+.column1 {
     grid-template-columns: 1fr;
     margin: 0.5rem 0;
-  } 
+}
 
-  .call-to-action {
+.call-to-action {
     margin: 0 auto;
     display: block;
-  }
+}
 
-  .call-to-action p {
+.call-to-action p {
     text-align: center;
     margin: 0 auto;
     width: 600px;
     display: block;
-  }
+}
 
-  .call-to-action button {
+.call-to-action button {
     margin: 0 auto;
     display: block;
-  }
+}
 
-  .trips-title {
+.trips-title {
     position: relative;
     top: 10px;
     bottom: 50px;
@@ -284,20 +290,20 @@ form {
     z-index: 1;
     text-align: center;
 
-  }
+}
 
-  .adventure-title {
+.adventure-title {
     margin-bottom: 20px;
     width: 100%;
-  }
+}
 
-  .adventure-detail {
+.adventure-detail {
     margin: 5;
     padding: 0;
     width: 100%;
-  }
+}
 
-  .adventure-table {
+.adventure-table {
     margin: 0 auto;
     width: 814px;
     height: 452px;
@@ -328,7 +334,7 @@ form {
 }
 
 .newsletter {
-    width:auto;
+    width: auto;
 }
 
 .newsletter form {
@@ -354,10 +360,11 @@ form {
 
 .newsletter button {
     width: auto;
+    background-color: var(--primary-color);
 }
 
 .newsletter button:hover {
-    background-color: #dddddd;
+    background-color: var(--accent2-color);
 }
 
 .thrill-trips {
@@ -381,8 +388,8 @@ form {
 }
 
 .home-trips button {
-   margin: 0 auto;
-   display: block;
+    margin: 0 auto;
+    display: block;
 }
 
 .thrill-figs {
@@ -400,4 +407,20 @@ form {
 .thrill-detail {
     width: 800px;
     margin: 0 auto;
+}
+
+a.button {
+
+    margin: 1rem auto;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 250px;
+
 }
