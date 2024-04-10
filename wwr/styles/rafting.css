@@ -282,7 +282,7 @@ footer {
     position: relative;
     top: 10px;
     bottom: 50px;
-    margin: 20 auto;
+    margin: 20px auto;
     width: 100%;
     background-color: transparent;
     font-size: 2rem;
@@ -298,7 +298,7 @@ footer {
 }
 
 .adventure-detail {
-    margin: 5;
+    margin: 5px;
     padding: 0;
     width: 100%;
 }
